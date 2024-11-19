@@ -1,5 +1,5 @@
 {% set name = "xlsx2csv" %}
-{% set version = "0.8.3" %}
+{% set version = "0.8.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xlsx2csv-{{ version }}.tar.gz
-  sha256: 6c65d5989e8d3f14dd7296d425d693a67f51899d0c8e1ed7bcbf9ccb18223734
+  sha256: 2aa809888826f6af5b26c77fc7f613f2bbeada0d8cc09e5a58e0f59684bb6911
 
 build:
   entry_points:
