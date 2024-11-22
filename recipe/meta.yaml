@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xlsx2csv-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/xlsx2csv-{{ version }}.tar.gz
   sha256: 2aa809888826f6af5b26c77fc7f613f2bbeada0d8cc09e5a58e0f59684bb6911
 
 build:
@@ -18,7 +18,7 @@ build:
 
 requirements:
   host:
-    - python >=3.4
+    - python 3.4
     - setuptools >=61.2.0
     - wheel
     - setuptools-scm >=3.4.3
