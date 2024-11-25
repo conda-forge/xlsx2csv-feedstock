@@ -33,6 +33,7 @@ test:
     - pip check
     - xlsx2csv --help
   requires:
+    - python 3.8
     - pip
 
 about:
